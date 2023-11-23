@@ -1,0 +1,68 @@
+{
+    "name": "react-native-blossom-pdf",
+    "version": "1.0.0",
+    "summary": "A react native PDF view component",
+    "description": "A react native PDF view component, support ios and android platform",
+    "main": "index.js",
+    "typings": "./index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ljosorio/react-native-blossom-pdf"
+    },
+    "keywords": [
+        "react-component",
+        "react-native",
+        "android",
+        "ios",
+        "pdf",
+        "view",
+        "viewer"
+    ],
+    "author": {
+        "name": "ljosorio",
+        "url": "https://github.com/ljosorio"
+    },
+    "license": "MIT",
+    "homepage": "https://github.com/ljosorio/react-native-blossom-pdf",
+    "bugs": {
+        "url": "https://github.com/ljosorio/react-native-blossom-pdf/issues"
+    },
+    "dependencies": {
+        "crypto-js": "4.2.0",
+        "deprecated-react-native-prop-types": "^2.3.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.20.2",
+        "@babel/runtime": "^7.20.1",
+        "prop-types": "^15.7.2"
+    },
+    "peerDependencies": {
+        "react": "*",
+        "react-native": "*",
+        "rn-fetch-blob": "0.12.0"
+    },
+    "files": [
+        "android/",
+        "ios/",
+        "windows/",
+        "DoubleTapView.js",
+        "index.d.ts",
+        "index.js",
+        "index.js.flow",
+        "PdfManager.js",
+        "PdfPageView.js",
+        "PdfView.js",
+        "PdfViewFlatList.js",
+        "PinchZoomView.js",
+        "react-native-pdf.podspec",
+        "fabric/"
+    ],
+    "codegenConfig": {
+        "name": "rnpdf",
+        "type": "components",
+        "jsSrcsDir": "./fabric",
+        "android": {
+          "javaPackageName": "org.wonday.pdf"
+        }
+      }
+}
