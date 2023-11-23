@@ -17,7 +17,7 @@ import {
     Platform
 } from 'react-native';
 
-import Pdf from 'react-native-pdf';
+import Pdf from 'react-native-blossom-pdf';
 import Orientation from 'react-native-orientation-locker';
 
 const WIN_WIDTH = Dimensions.get('window').width;

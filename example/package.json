@@ -19,13 +19,13 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wonday/react-native-pdf/issues"
+    "url": "https://github.com/wonday/react-native-blossom-pdf/issues"
   },
   "dependencies": {
     "react": "16.13.1",
     "react-native": "0.69.12",
     "react-native-orientation-locker": "^1.1.6",
-    "react-native-pdf": "file:../",
+    "react-native-blossom-pdf": "file:../",
     "react-native-windows": "^0.63.11",
     "react-native-blob-util": "^0.13.14"
   },
