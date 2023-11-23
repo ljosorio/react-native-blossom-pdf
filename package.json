@@ -7,7 +7,7 @@
     "typings": "./index.d.ts",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/ljosorio/react-native-blossom-pdf"
+        "url": "git+https://github.com/ljosorio/react-native-blossom-pdf.git"
     },
     "keywords": [
         "react-component",
